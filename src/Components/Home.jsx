@@ -40,7 +40,7 @@ const Home = () => {
           alt="First slide" 
         />
         <Carousel.Caption>
-          <h3 id='text'>"The beautiful thing about learning is that no one can take it away from you." - B.B. King</h3>
+          <h3 id='text'>"People who love to eat are always the best people." - Julia Child</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -50,7 +50,7 @@ const Home = () => {
           alt="Second slide" 
         />
         <Carousel.Caption>
-          <h3 id='text'>"Education is the key to unlocking the world, a passport to freedom." - Oprah Winfrey</h3>
+          <h3 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -61,7 +61,7 @@ const Home = () => {
           alt="Third slide" 
         />
         <Carousel.Caption>
-          <h3 id='text'>"The aim of education should be to teach us how to think, rather than what to think." - Bill Beattie</h3>
+          <h3 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
