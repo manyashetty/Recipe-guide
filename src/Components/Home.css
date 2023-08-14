@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@500&family=Fasthand&family=Lugrasimo&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+.h_full{
+    background-color: rgb(147, 78, 22);
+}
+.head{
+    font-family: 'Lugrasimo', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:goldenrod;
+    
+}
+/* .head:hover{
+    color:rgb(235, 174, 100);
+    font-weight: bolder;
+} */
+.back{
+    background-color: rgb(147, 78, 22);
+}
+.non-head{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+/* .l{
+    background-color:darkkhaki;
+    color:rgb(142, 103, 4);
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    font-weight: bold;
+} */
+/* .l:hover{
+    color: azure;
+} */
+/* #text{
+    color:darkkhaki;
+} */
+/* .cara{
+    width: 600px;
+    height: 400px;
+} */
+/* #carouselExampleFade{
+    align-self: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+} */
+#price{
+    background-color: rgb(147, 78, 22);
+}
+.d-block{
+    /* position: relative; */
+    /* height: 500px;
+    width: max-content;
+    justify-content: center; */
+    width:1530px;
+    height: 650px;
+}
+/* #carouselExampleFade{
+    margin-left: 180px;
+    margin-right: 180px;
+} */
+/* .input-group{
+    margin: 30px;
+    width: 1450px;
+} */
+/* .search{
+    background-color: chocolate;
+    color: aliceblue;
+} */
+/* .search:hover{
+    color: aliceblue;
+} */
+/* .bs{
+    background-color: rgb(226, 222, 157);
+    color: black;
+} */

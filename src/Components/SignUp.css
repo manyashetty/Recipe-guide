@@ -1,0 +1,15 @@
+#b-img{
+    background-image:url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=800")
+}
+.d-flex {
+    position: relative;
+  }
+  
+  .border {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    transition: left 0.3s ease;
+  }
