@@ -40,7 +40,7 @@ const Home = () => {
           alt="First slide" 
         />
         <Carousel.Caption>
-          <h3 id='text'>"are always the best people." - Julia Child</h3>
+          <h3 id='text'>"People who love to eat are always the best people." - Julia Child</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
