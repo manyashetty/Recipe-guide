@@ -1,9 +1,11 @@
-import './Home.css'
+import './Home.css';
+import 'boxicons/css/boxicons.min.css';
 import { Carousel } from 'react-bootstrap';
 import Food7 from "../Images/Food7.jpg";
 import Food9 from "../Images/Food9.jpg";
 import Food10 from "../Images/Food10.jpg";
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
+
 const Home = () => {
     return (
         < >
@@ -44,9 +46,9 @@ const Home = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </section>
+    
     {/* JUst Text as intro for website */}
-   <section id="introText">
+   
         <div class="container">
             <div class="text-center">
             <h1>Recipies for the foodiessss</h1>
@@ -99,26 +101,23 @@ const Home = () => {
             {/* <!--/.container--> */}
         </div>
     </section>
-    </div>
+   
     {/* <!-- Footer --> */}
+    
 			<footer id="footer">
 
 				{/* <!-- Icons --> */}
 					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-
-				{/* <!-- Menu --> */}
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li><a href="#" ><i class='bx bxl-twitter bx-lg'></i></a></li>
+						<li><a href="#"><i class='bx bxl-facebook bx-lg' ></i></a></li>
+						<li><a href="#" ><i class='bx bxl-google-plus bx-lg'></i></a></li>
+						<li><a href="#" ><i class='bx bxl-pinterest bx-lg'></i></a></li>
+						<li><a href="#"><i class='bx bxl-instagram-alt bx-lg' ></i></a></li>
+            <li class="menu">&copy; Untitled | Design: <a href="http://Recipie.in">HTML5 UP</a></li>
 					</ul>
 
 			</footer>
+      </div>
     </>
         );
 }

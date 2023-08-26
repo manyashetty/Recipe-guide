@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@500&family=Fasthand&family=Lugrasimo&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap');
 .h_full{
-    background-color: rgb(147, 78, 22);
+    background-color: #8B8BAE;
 }
 .head{
     font-family: 'Lugrasimo', cursive;
     font-size: xx-large;
     font-weight: bolder;
-    color:goldenrod;
+    /* color:goldenrod; */
     
 }
+/* -------------------------------------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
+/* =-------------------------------------------------- */
 /* .head:hover{
     color:rgb(235, 174, 100);
     font-weight: bolder;
 } */
 .back{
-    background-color: rgb(147, 78, 22);
+    background-color: #8B8BAE;
 }
 .non-head{
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
     font-weight: bold;
-    color: darkgoldenrod;
+    /* color: darkgoldenrod; */
 }
 /* .l{
     background-color:darkkhaki;
@@ -45,7 +48,7 @@
     margin-bottom: 25px;
 } */
 #price{
-    background-color: rgb(147, 78, 22);
+    background-color: #D9EE5F;
 }
 .d-block{
     /* position: relative; */
@@ -53,95 +56,52 @@
     width: max-content;
     justify-content: center; */
     width:1530px;
-    height: 650px;
+    height: 640px;
 }
-/* #carouselExampleFade{
-    margin-left: 180px;
-    margin-right: 180px;
-} */
-/* .input-group{
-    margin: 30px;
-    width: 1450px;
-} */
-/* .search{
-    background-color: chocolate;
-    color: aliceblue;
-} */
-/* .search:hover{
-    color: aliceblue;
-} */
-/* .bs{
-    background-color: rgb(226, 222, 157);
-    color: black;
-} */
+
 .tileBox p{
-    background-color: #f0f0f0;
+    background-color: #FFF7EF;
 font-size: 15px;
-color: #777777;
+/* color: #777777; */
 padding: 20px;
 margin: 0px;
 }
 .header {
     position: fixed;
     width: 100%;
-    background: #CC4646;
+    /* background: #CC4646; */
     z-index: 50;
     border-radius: 0;
     top: 0px;
-    border-bottom: 1px solid #F57676;
+    /* border-bottom: 1px solid #F57676; */
 }
 #container {
-    border: 1px solid #666;
+    /* border: 1px solid #0a0303; */
     padding: 5px;
     margin-bottom: 20px;
   }
   #aboutUs .txtHead{
-    background:#fff;
+    background:#8B8BAE;
     padding:20px 10px;
     }
     #aboutUs .txtHead .fa {
     font-size: 58px;
-    color: #5E5E5E;
+    /* color: #5E5E5E; */
     }
+    
   
-
-		/* #footer .actions {
-			position: relative;
-			left: 0;
-			top: 0;
-			height: auto;
-			line-height: inherit;
-			margin: 0 0 1em 0;
-		} */
-		
-		/* #footer .menu {
-			position: relative;
-			right: 0;
-			top: 0;
-			height: auto;
-			line-height: inherit;
-		} */
-        ul.menu {
-            cursor: default;
+        #footer{
+            background-color: #8B8BAE;
+            height: 50px;
+            
         }
-
+		
+		
+		
             ul.menu li {
                 display: inline-block;
-                line-height: 1em;
-                border-left: solid 1px rgba(145,146,147,0.25);
-                padding: 0 0 0 0.5em;
-                margin: 0 0 0 0.5em;
+               
             }
-
-            ul.menu li:first-child {
-                border-left: 0;
-                padding-left: 0;
-                margin-left: 0;
-            }
-
-        ul.actions {
-            cursor: default;
-        }
 
             ul.actions li {
                 display: inline-block;
@@ -154,17 +114,16 @@ margin: 0px;
             #footer .menu {
                 position: absolute;
                 right: 2em;
-                bottom:2rem;
+               
                 height:auto;
                 line-height: inherit;
                 margin: 0;
-                font-size: 0.9em;
+                font-size: 1em;
                
             }
     
                 #footer .menu li {
-                    font-size: 0.9em;
+                    font-size: 1em;
                 }
-                  
-	
+          
     
