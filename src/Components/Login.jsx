@@ -1,47 +1,55 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from 'react';
 import './Login.css'
+import Food7 from "../Images/Food7.jpg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+function App() { 
+  const [loginFormVisible, setLoginFormVisible] = useState(true);
 
-    
+  const switchToLogin = () => {
+    setLoginFormVisible(true);
+  };
 
-const Login =() =>{
-    const [leftPosition, setLeftPosition] = useState(0);
-  
-    const shiftRight = () => {
-      setLeftPosition(prevPosition => prevPosition + 200); // Adjust the shift amount as needed
-    };
-  return(
-    <div className="d-flex justify-content-center bg-primary align-items-center vh-100" id="b-img">
-        <div className="border border-5 border-light p-4 bg-white"> 
-            <form>
-                <h3 className="text-center">Log In</h3>
-               <div className="mb-3">
-                <div>
-                <span role="img" aria-label="User Icon">&#x1F464;</span>
-                    <label htmlFor="email">Email</label>
-                    <input type="email" placeholder="Enter your email"
-                    className="form-control"
-                    name="Email"/> 
+  const switchToRegister = () => {
+    setLoginFormVisible(false);
+  };
+
+  return (
+    <div className="App">
+      <div className="account-page">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col">
+              <img src={Food7} alt="First slide" />
+            </div>
+            <div className="col-4"> 
+              <div className="form-container">
+                <div className="form-btn">
+                  <span onClick={switchToLogin}>Login</span>
+                  <span onClick={switchToRegister}>Register</span>
+                  <hr id="indicator" style={{ transform: loginFormVisible ? 'translateX(0px)' : 'translateX(100px)' }} />
                 </div>
-                <div className="mb-3">
-                <span role="img" aria-label="Lock Icon">&#x1F512;</span>
-                    <label htmlFor="signup">Password</label>
-                    <input type="signup" placeholder="Enter your password"
-                    className="form-control"
-                    name="Password"/>
-                </div>
-                <div>
-                   
-                    <input type="checkbox" className="custom-control custom-checkbox mb-1"/>
-                    <label htmlFor="checkbox" className="ms-1">Remember Me</label>
-                </div>
-                <div className="d-grid">
-                    <button className="btn btn-secondary" type="submit">Log In</button>
-                </div>
-                </div>
-            </form>
+                {loginFormVisible ? (
+                  <form action="" id="LoginForm">   
+                    <input type="text" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
+                    <button type="submit" className="btn">Login</button>
+                    <a href="#">Forgot Password</a>
+                  </form>
+                ) : (
+                  <form action="" id="RegForm">
+                    <input type="text" placeholder="Username" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button type="submit" className="btn">Register</button>
+                  </form>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    );
-};
-export default Login
+  );
+}
+
+export default App;

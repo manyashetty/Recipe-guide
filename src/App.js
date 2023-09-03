@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Login from './Components/Login';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import SignUp from './Components/SignUp';
+
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
     <Navbar></Navbar>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element = {<Home />} />
-      <Route path="/login" element={< Login/>}/>
-      <Route path='/signup' element={<SignUp/>}/>
+    <Route path="/login" element={< Login/>}/>
+      <Route path="/" element = {<Home/>} />
+      
+ 
     </Routes>
     </BrowserRouter>
     </>

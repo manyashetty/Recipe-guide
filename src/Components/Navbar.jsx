@@ -26,11 +26,9 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="nav navbar-nav navbar-right">
-                            <a href='Login'><button type="button" className="btn btn-lg l">Login</button></a>
+                            <a href='Login'><button type="button" className="btn btn-dark ms-auto px-4 rounded-pill">Login / Sign-up</button></a>
                         </div>
-                        <div className="nav navbar-nav navbar-right">
-                            <a href='Signup'><button type="button" className="btn btn-lg l">Sign Up</button></a>
-                        </div>
+                        
                     </div>
                 </nav>
             </div>

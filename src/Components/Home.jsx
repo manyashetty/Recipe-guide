@@ -113,7 +113,7 @@ const Home = () => {
 						<li><a href="#" ><i class='bx bxl-google-plus bx-lg'></i></a></li>
 						<li><a href="#" ><i class='bx bxl-pinterest bx-lg'></i></a></li>
 						<li><a href="#"><i class='bx bxl-instagram-alt bx-lg' ></i></a></li>
-            <li class="menu">&copy; Untitled | Design: <a href="http://Recipie.in">HTML5 UP</a></li>
+            <li class="menu">&copy; Untitled | Design: <a href="http://Recipie.in">Recipie-guide</a></li>
 					</ul>
 
 			</footer>
