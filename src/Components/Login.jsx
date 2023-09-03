@@ -32,7 +32,7 @@ function App() {
                   <form action="" id="LoginForm">   
                     <input type="text" placeholder="Username" />
                     <input type="password" placeholder="Password" />
-                    <button type="submit" className="btn">Login</button>
+                    <button type="submit" className="btn btn-dark ms-auto px-4 rounded-pill">Login</button>
                     <a href="#">Forgot Password</a>
                   </form>
                 ) : (
@@ -40,7 +40,7 @@ function App() {
                     <input type="text" placeholder="Username" />
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />
-                    <button type="submit" className="btn">Register</button>
+                    <button type="submit" className="btn btn-dark ms-auto px-4 rounded-pill">Register</button>
                   </form>
                 )}
               </div>
