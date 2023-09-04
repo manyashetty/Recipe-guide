@@ -1,4 +1,5 @@
 import './Home.css'
+import './Recipe.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 // import { Link } from 'react-router-dom'
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
                                 <a className='nav-link' href='/Plan' id='text'>Meal Plan</a>
                             </li>
                             <li className='nav-item'>
-                                <a className='nav-link' href='/Plan' id='text'>Recipes</a>
+                                <a className='nav-link' href='/Recipe' to="/Recipe" id='text'>Recipes</a>
                             </li>
                             <li className='nav-item'>
                                 <a className='nav-link' href='/About' id='text'>About Us</a>
