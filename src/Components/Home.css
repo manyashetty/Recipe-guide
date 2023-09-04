@@ -5,15 +5,36 @@
 }
 .head{
     font-family: 'Lugrasimo', cursive;
-    font-size: xx-large;
+    text-align: justify;
+    font-size: 100%;
     font-weight: bolder;
     /* color:goldenrod; */
     
 }
 /* -------------------------------------------------------------*/
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
-/* =-------------------------------------------------- */
 
+/* =-------------------------------------------------- */
+.container {
+    text-align: center; 
+  padding: 20px; 
+
+}
+.card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Optional: Center-align the h1 element */
+h1 {
+    color: #ff5733; 
+    font-size: 36px; 
+  }
+p {
+    color: #333; 
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
 /* .head:hover{
     color:rgb(235, 174, 100);
     font-weight: bolder;
@@ -50,7 +71,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     margin-bottom: 25px;
 } */
 #price{
-    background-color: #dff9fb;
+    background-color: #fefefe;
 }
 .d-block{
     /* position: relative; */
@@ -62,7 +83,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .tileBox p{
-    background-color:#c7ecee;
+    background-color:#ffffff;
 font-size: 15px;
 /* color: #777777; */
 padding: 20px;
@@ -127,5 +148,69 @@ margin: 0px;
                 #footer .menu li {
                     font-size: 1em;
                 }
-          
-    
+
+ /* .recipe-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.recipe-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .ingredients {
+    margin-bottom: 10px;
+  }
+ .steps {
+    margin-bottom: 10px;
+  }
+        
+.box-icon {
+    display: flex;
+    align-items: center;
+ }
+        
+.box-icon .fa {
+    margin-right: 5px;
+ } */
+ .recipe-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Style for the recipe name */
+.recipe-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the ingredients list */
+.ingredients {
+    margin-bottom: 10px;
+}
+
+/* Style for the steps */
+.steps {
+    margin-bottom: 10px;
+}
+
+/* Style for the box icons */
+.box-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for the star and favorite icons */
+.box-icons i {
+    font-size: 30px;
+    cursor: pointer;
+} 
