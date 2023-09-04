@@ -1,6 +1,7 @@
 import './Home.css';
 import 'boxicons/css/boxicons.min.css';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Food7 from "../Images/Food7.jpg";
 import Food9 from "../Images/Food9.jpg";
 import Food10 from "../Images/Food10.jpg";
@@ -17,10 +18,10 @@ const Home = () => {
           className="d-block "
           src={Food7}
           alt="First slide" 
-          
+          style={{ maxWidth: '100%', maxHeight: '80vh' }}
         />
         <Carousel.Caption>
-          <h3 id='text'>"People who love to eat are always the best people." - Julia Child</h3>
+          <h4 id='text'>"People who love to eat are always the best people." - Julia Child</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -28,9 +29,10 @@ const Home = () => {
           className="d-block "
           src={Food9}
           alt="Second slide" 
+          style={{ maxWidth: '100%', maxHeight: '80vh' }}
         />
         <Carousel.Caption>
-          <h3 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h3>
+          <h4 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h4>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,9 +41,10 @@ const Home = () => {
           className="d-block "
           src={Food10}
           alt="Third slide" 
+          style={{ maxWidth: '100%', maxHeight: '80vh' }}
         />
         <Carousel.Caption>
-          <h3 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h3>
+          <h4 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h4>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -52,7 +55,7 @@ const Home = () => {
    <div class="container">
     <div class="card">
       <div class="simple">
-        <h1>Recipes for Foodies</h1>
+        <h1>Welcome to Recipe Master</h1>
         <p>Are you passionate about cooking or simply in search of delightful culinary adventures? 
           Look no further! We are thrilled to introduce "RecipeMaster," your all-in-one web application for 
           becoming a culinary maestro right in the comfort of your kitchen.</p>
@@ -78,6 +81,9 @@ const Home = () => {
                         />
                         <p>Gobi Manchurian is a popular Indian-Chinese fusion dish made with cauliflower 
                           (gobi) florets that are deep-fried and then tossed in a flavorful Manchurian sauce</p>
+                          <Link to="/gobi-manchurian-details" className="btn btn-secondary">
+                           Read more
+                          </Link>
                         </div>
                         <div class="box-icons">
                           
@@ -96,7 +102,11 @@ const Home = () => {
                         />
                         <p>Paneer Ghee Roast is a delicious and spicy South Indian dish made with paneer (Indian cottage cheese) 
                           that's roasted in aromatic ghee (clarified butter) and a flavorful blend of spices.</p>
+                          <Link to="/paneer-details" className="btn btn-secondary">
+                          Read more
+                         </Link>
                         </div>
+                         
                         <div class="box-icons">
                              
                         </div>
@@ -113,6 +123,9 @@ const Home = () => {
                         />
                         <p>Chicken kebabs are a popular and delicious dish made from marinated chicken pieces skewered and grilled to perfection
                           There are various ways to make chicken kebabs</p>
+                          <Link to="/chicken-kebab-details" className="btn btn-secondary">
+                           Read more
+                           </Link>
                         </div>
                         <div class="box-icons">
                              
@@ -127,7 +140,7 @@ const Home = () => {
     <section id="quote" class="bg-parlex">
         <div class="parlex-back">
             <div class="container secPad text-center">
-				<h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
+				      <h5>If I asked people what they wanted, they would have said ‘Faster Horses’.</h5><h6>-Henry Ford</h6>
             </div>
             {/* <!--/.container--> */}
         </div>
@@ -138,7 +151,7 @@ const Home = () => {
 			<footer id="footer">
 
 				{/* <!-- Icons --> */}
-					<ul class="actions">
+					<ul class="actions" >
 						<li><a href="#" ><i class='bx bxl-twitter bx-lg'></i></a></li>
 						<li><a href="#"><i class='bx bxl-facebook bx-lg' ></i></a></li>
 						<li><a href="#" ><i class='bx bxl-google-plus bx-lg'></i></a></li>

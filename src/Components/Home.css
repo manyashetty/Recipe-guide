@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@500&family=Fasthand&family=Lugrasimo&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap');
 .h_full{
     background-color:#596275;
-    
+}
+.nav-link{
+  font-family: 'Bebas Neue', sans-serif;;
 }
 .head{
     font-family: 'Lugrasimo', cursive;
     text-align: justify;
     font-size: 100%;
     font-weight: bolder;
-    /* color:goldenrod; */
-    
 }
-/* -------------------------------------------------------------*/
-
-/* =-------------------------------------------------- */
 .container {
     text-align: center; 
   padding: 20px; 
@@ -25,59 +22,30 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* Optional: Center-align the h1 element */
+
 h1 {
-    color: #ff5733; 
+    color: #2e2422a1; 
     font-size: 36px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 p {
     color: #333; 
     font-size: 18px; 
     margin-bottom: 20px; 
   }
-/* .head:hover{
-    color:rgb(235, 174, 100);
-    font-weight: bolder;
-} */
-/* .back{
-    background-color: #6247AA;
-} */
+
 .non-head{
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
     font-weight: bold;
-    /* color: darkgoldenrod; */
+
 }
-/* .l{
-    background-color:darkkhaki;
-    color:rgb(142, 103, 4);
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-    font-weight: bold;
-} */
-/* .l:hover{
-    color: azure;
-} */
-/* #text{
-    color:darkkhaki;
-} */
-/* .cara{
-    width: 600px;
-    height: 400px;
-} */
-/* #carouselExampleFade{
-    align-self: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-} */
+
 #price{
     background-color: #fefefe;
 }
 .d-block{
-    /* position: relative; */
-    /* height: 500px;
-    width: max-content;
-    justify-content: center; */
+
     width:1530px;
     height: 640px;
 }
@@ -85,98 +53,54 @@ p {
 .tileBox p{
     background-color:#ffffff;
 font-size: 15px;
-/* color: #777777; */
 padding: 20px;
 margin: 0px;
 }
 .header {
     position: fixed;
     width: 100%;
-    /* background: #CC4646; */
     z-index: 50;
     border-radius: 0;
     top: 0px;
-    /* border-bottom: 1px solid #F57676; */
+
 }
 #container {
-    /* border: 1px solid #0a0303; */
     padding: 5px;
     margin-bottom: 20px;
   }
-  #aboutUs .txtHead{
+#aboutUs .txtHead{
     background:#596275;
     padding:20px 10px;
-    }
-    #aboutUs .txtHead .fa {
+  }
+#aboutUs .txtHead .fa {
     font-size: 58px;
-    /* color: #5E5E5E; */
-    }
-    
-  
-        #footer{
-            background-color: #596275;
-            height: 50px;
+ }
+ #footer{
+   background-color: #596275;
+    height: 50px;
             
-        }
-		
-		
-		
-            ul.menu li {
-                display: inline-block;
-               
-            }
-
-            ul.actions li {
-                display: inline-block;
-                margin: 0 0 0 0.5em;
-            }
-
-            ul.actions li:first-child {
-                margin-left: 0;
-            }
-            #footer .menu {
-                position: absolute;
-                right: 2em;
-               
-                height:auto;
-                line-height: inherit;
-                margin: 0;
-                font-size: 1em;
-               
-            }
-    
-                #footer .menu li {
-                    font-size: 1em;
-                }
-
- /* .recipe-card {
-    width: 300px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+  }
+ ul.menu li {
+      display: inline-block;
+    }
+ul.actions li {
+     display: inline-block;
+    margin: 0 0 0 0.5em;
+  }
+ul.actions li:first-child {
+   margin-left: 0;
+   }
+#footer .menu {
+   position: absolute;
+    right: 2em;
+    height:auto;
+    line-height: inherit;
+   margin: 0;
+   font-size: 1em;
 }
-.recipe-name {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
- }
- .ingredients {
-    margin-bottom: 10px;
-  }
- .steps {
-    margin-bottom: 10px;
-  }
-        
-.box-icon {
-    display: flex;
-    align-items: center;
- }
-        
-.box-icon .fa {
-    margin-right: 5px;
- } */
+#footer .menu li {
+  font-size: 1em;
+                }
  .recipe-card {
     width: 300px;
     border: 1px solid #ccc;
@@ -186,30 +110,25 @@ margin: 0px;
     background-color: #fff;
 }
 
-/* Style for the recipe name */
 .recipe-name {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-/* Style for the ingredients list */
 .ingredients {
     margin-bottom: 10px;
 }
 
-/* Style for the steps */
 .steps {
     margin-bottom: 10px;
 }
 
-/* Style for the box icons */
 .box-icons {
     display: flex;
     justify-content: space-between;
 }
 
-/* Style for the star and favorite icons */
 .box-icons i {
     font-size: 30px;
     cursor: pointer;

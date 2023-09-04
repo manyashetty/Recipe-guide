@@ -1,6 +1,7 @@
-// RecipeDetails.js
+
 import React from 'react';
-import './Recipe.css'; // Import your CSS file for styling
+import './Recipe.css'; 
+import { Link } from 'react-router-dom';
 const RecipeDetails = () => {
   return (
  <div className="recipe-details">
@@ -57,12 +58,18 @@ const RecipeDetails = () => {
     <br></br>
     <div className="section">
         <ol className="conclusion">
-        <h3>Serve it hot as a delicious appetizer or side dish.
+        <h6>Serve it hot as a delicious appetizer or side dish.
         Enjoy your homemade Gobi Manchurian! Adjust the level of spiciness by adding more or less 
-        chilli sauce according to your taste.</h3>
+        chilli sauce according to your taste.</h6>
+        </ol>
+        <ol className='video'>
+          <p>Refer Video:
+              <Link to="https://www.youtube.com/watch?v=F6Czd-2dwN0">Click Here</Link>
+          </p>
         </ol>
     </div>
  </div>
+ 
 );
 };
 

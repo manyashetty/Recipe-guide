@@ -1,6 +1,7 @@
-// RecipeDetails.js
+
 import React from 'react';
-import './Recipe.css'; // Import your CSS file for styling
+import './Recipe.css'; 
+import { Link } from 'react-router-dom';
 const RecipeDetails2 = () => {
   return (
  <div className="recipe-details">
@@ -55,9 +56,14 @@ const RecipeDetails2 = () => {
     <br></br>
     <div className="section">
         <ol className="conclusion">
-        <h3>Chicken kebabs are delicious and versatile, making them a great option
+        <h6>Chicken kebabs are delicious and versatile, making them a great option
              for parties, picnics, or a flavorful family meal. Adjust the seasoning and ingredients 
-             to suit your taste preferences. Enjoy your homemade chicken kebabs!</h3>
+             to suit your taste preferences. Enjoy your homemade chicken kebabs!</h6>
+        </ol>
+        <ol className='video'>
+          <p>Refer Video:
+              <Link to="https://www.youtube.com/watch?v=fIeCfffQ5IM">Click Here</Link>
+          </p>
         </ol>
     </div>
  </div>
