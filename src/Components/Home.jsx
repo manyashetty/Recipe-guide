@@ -7,150 +7,150 @@ import Food10 from "../Images/Food10.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
-    return (
-        < >
-        
-         <div id="price">
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block "
-          src={Food7}
-          alt="First slide" 
-          
-        />
-        <Carousel.Caption>
-          <h3 id='text'>"People who love to eat are always the best people." - Julia Child</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block "
-          src={Food9}
-          alt="Second slide" 
-        />
-        <Carousel.Caption>
-          <h3 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block "
-          src={Food10}
-          alt="Third slide" 
-        />
-        <Carousel.Caption>
-          <h3 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    
-    {/* JUst Text as intro for website */}
-   <br></br>
-   <div class="container">
-    <div class="card">
-      <div class="simple">
-        <h1>Recipes for Foodies</h1>
-        <p>Are you passionate about cooking or simply in search of delightful culinary adventures? 
-          Look no further! We are thrilled to introduce "RecipeMaster," your all-in-one web application for 
-          becoming a culinary maestro right in the comfort of your kitchen.</p>
-        <p>"RecipeMaster" is designed with one goal in mind: to elevate your cooking game to a whole new level.
-          Whether you're a seasoned chef or a kitchen novice, our application provides you with a treasure trove
-          of carefully curated recipes from around the globe. From mouthwatering appetizers to decadent desserts, 
-          our collection spans cuisines, skill levels, and dietary preferences.</p>
-      </div>
-    </div>
-  </div>
+  return (
+    < >
 
-   <section id="recipes" class="secPad">
-        <div class="container"><h1>Popular</h1>
-            <div class="row">
-                {/* <!-- Recipe 1 --> */}
-                <div class="col-md-4">
-                    <div class="recipe-card">
-                        <div class="recipe-name">Gobi Manchurian</div>
-                        <img  src="https://www.spicypunch.com/wp-content/uploads/2022/10/Gobi-Manchurian.jpg"
-                             alt="loading..."
-                            height="150px"
-                             width="250px"
-                        />
-                        <p>Gobi Manchurian is a popular Indian-Chinese fusion dish made with cauliflower 
-                          (gobi) florets that are deep-fried and then tossed in a flavorful Manchurian sauce</p>
-                        </div>
-                        <div class="box-icons">
-                          
-                        </div>
-                    </div>
-               
+      <div id="price">
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block "
+              src={Food7}
+              alt="First slide"
 
-                {/* <!-- Recipe 2 --> */}
-                <div class="col-md-4">
-                    <div class="recipe-card">
-                        <div class="recipe-name">Paneer Ghee Roast</div>
-                        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSKdI_yP_rlG0Ih4cHuRAlVSk8e1LTsSZEw&usqp=CAU"
-                             alt="loading..."
-                            height="150px"
-                             width="250px"
-                        />
-                        <p>Paneer Ghee Roast is a delicious and spicy South Indian dish made with paneer (Indian cottage cheese) 
-                          that's roasted in aromatic ghee (clarified butter) and a flavorful blend of spices.</p>
-                        </div>
-                        <div class="box-icons">
-                             
-                        </div>
-                    </div>
+            />
+            <Carousel.Caption>
+              <h3 id='text'>"People who love to eat are always the best people." - Julia Child</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block "
+              src={Food9}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h3 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h3>
 
-                {/* <!-- Recipe 3 --> */}
-                <div class="col-md-4">
-                    <div class="recipe-card">
-                        <div class="recipe-name">Chicken kebab</div>
-                        <img  src="https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Kebab.jpg "
-                             alt="loading..."
-                            height="150px"
-                             width="250px"
-                        />
-                        <p>Chicken kebabs are a popular and delicious dish made from marinated chicken pieces skewered and grilled to perfection
-                          There are various ways to make chicken kebabs</p>
-                        </div>
-                        <div class="box-icons">
-                             
-                        </div>
-                    </div>
-                </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block "
+              src={Food10}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <h3 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h3>
+
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+
+        {/* JUst Text as intro for website */}
+        <br></br>
+        <div class="container">
+          <div class="card">
+            <div class="simple">
+              <h1>Recipes for Foodies</h1>
+              <p>Are you passionate about cooking or simply in search of delightful culinary adventures?
+                Look no further! We are thrilled to introduce "RecipeMaster," your all-in-one web application for
+                becoming a culinary maestro right in the comfort of your kitchen.</p>
+              <p>"RecipeMaster" is designed with one goal in mind: to elevate your cooking game to a whole new level.
+                Whether you're a seasoned chef or a kitchen novice, our application provides you with a treasure trove
+                of carefully curated recipes from around the globe. From mouthwatering appetizers to decadent desserts,
+                our collection spans cuisines, skill levels, and dietary preferences.</p>
             </div>
-    </section>
-    
-    
-    {/* <!--Quote--> */}
-    <section id="quote" class="bg-parlex">
-        <div class="parlex-back">
+          </div>
+        </div>
+
+        <section id="recipes" class="secPad">
+          <div class="container"><h1>Popular</h1>
+            <div class="row">
+              {/* <!-- Recipe 1 --> */}
+              <div class="col-md-4">
+                <div class="recipe-card">
+                  <div class="recipe-name">Gobi Manchurian</div>
+                  <img src="https://www.spicypunch.com/wp-content/uploads/2022/10/Gobi-Manchurian.jpg"
+                    alt="loading..."
+                    height="150px"
+                    width="250px"
+                  />
+                  <p>Gobi Manchurian is a popular Indian-Chinese fusion dish made with cauliflower
+                    (gobi) florets that are deep-fried and then tossed in a flavorful Manchurian sauce</p>
+                </div>
+                <div class="box-icons">
+
+                </div>
+              </div>
+
+
+              {/* <!-- Recipe 2 --> */}
+              <div class="col-md-4">
+                <div class="recipe-card">
+                  <div class="recipe-name">Paneer Ghee Roast</div>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSKdI_yP_rlG0Ih4cHuRAlVSk8e1LTsSZEw&usqp=CAU"
+                    alt="loading..."
+                    height="150px"
+                    width="250px"
+                  />
+                  <p>Paneer Ghee Roast is a delicious and spicy South Indian dish made with paneer (Indian cottage cheese)
+                    that's roasted in aromatic ghee (clarified butter) and a flavorful blend of spices.</p>
+                </div>
+                <div class="box-icons">
+
+                </div>
+              </div>
+
+              {/* <!-- Recipe 3 --> */}
+              <div class="col-md-4">
+                <div class="recipe-card">
+                  <div class="recipe-name">Chicken kebab</div>
+                  <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Kebab.jpg "
+                    alt="loading..."
+                    height="150px"
+                    width="250px"
+                  />
+                  <p>Chicken kebabs are a popular and delicious dish made from marinated chicken pieces skewered and grilled to perfection
+                    There are various ways to make chicken kebabs</p>
+                </div>
+                <div class="box-icons">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* <!--Quote--> */}
+        <section id="quote" class="bg-parlex">
+          <div class="parlex-back">
             <div class="container secPad text-center">
-				<h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
+              <h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
             </div>
             {/* <!--/.container--> */}
-        </div>
-    </section>
-   
-    {/* <!-- Footer --> */}
-    
-			<footer id="footer">
+          </div>
+        </section>
 
-				{/* <!-- Icons --> */}
-					<ul class="actions">
-						<li><a href="#" ><i class='bx bxl-twitter bx-lg'></i></a></li>
-						<li><a href="#"><i class='bx bxl-facebook bx-lg' ></i></a></li>
-						<li><a href="#" ><i class='bx bxl-google-plus bx-lg'></i></a></li>
-						<li><a href="#" ><i class='bx bxl-pinterest bx-lg'></i></a></li>
-						<li><a href="#"><i class='bx bxl-instagram-alt bx-lg' ></i></a></li>
+        {/* <!-- Footer --> */}
+
+        <footer id="footer">
+
+          {/* <!-- Icons --> */}
+          <ul class="actions">
+            <li><a href="#" ><i class='bx bxl-twitter bx-lg'></i></a></li>
+            <li><a href="#"><i class='bx bxl-facebook bx-lg' ></i></a></li>
+            <li><a href="#" ><i class='bx bxl-google-plus bx-lg'></i></a></li>
+            <li><a href="#" ><i class='bx bxl-pinterest bx-lg'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram-alt bx-lg' ></i></a></li>
             <li class="menu">&copy; Untitled | Design: <a href="http://Recipie.in">Recipie-guide</a></li>
-					</ul>
+          </ul>
 
-			</footer>
+        </footer>
       </div>
     </>
-        );
+  );
 }
 
 export default Home;
