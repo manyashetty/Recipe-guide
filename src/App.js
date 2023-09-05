@@ -15,6 +15,7 @@ import RecipeDetails3 from './Components/RecipeDetails3';
 import RecipeDetails4 from './Components/RecipeDetails4';
 import Publish from "./Components/Publish";
 import Aboutus from './Components/Aboutus';
+import MealPlan from './Components/MealPlan';
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
           <Route path="/egg-curry-details" element={<RecipeDetails3 />} />
           <Route path="/paneer-details" element={<RecipeDetails4 />} />
           <Route path="/Aboutus" element={<Aboutus/>} />
+          <Route path="/Plan" element={<MealPlan/>}/>
         </Routes>
       </BrowserRouter>
     </>
