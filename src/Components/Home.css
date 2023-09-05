@@ -12,7 +12,7 @@
 }
 .container {
     text-align: center; 
-  padding: 20px; 
+    padding: 20px; 
 
 }
 .card{
@@ -143,5 +143,4 @@ ul.actions li:first-child {
 }
 #text{
     color: #000000;
-    text-decoration:overline;
 }

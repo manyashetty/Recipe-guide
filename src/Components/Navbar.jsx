@@ -23,6 +23,18 @@ const Navbar = () => {
                                 <a className='nav-link' href='/Recipe' to="/Recipe" id='text'>Recipes</a>
                             </li>
                             <li className='nav-item'>
+                                <a className='nav-link' href='/create-recipe' to="/create-recipe" id='text'>Create Recipes</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a className='nav-link' href='/saved-recipe' to="/saved-recipe" id='text'>Saved Recipes</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a className='nav-link' href='/Home1s' to="/Home1s" id='text'>Show Recipes</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a className='nav-link' href='/Publish' to="/Publish" id='text'>CookBook</a>
+                            </li>
+                            <li className='nav-item'>
                                 <a className='nav-link' href='/Aboutus' id='text'>About Us</a>
                             </li>
                         </ul>
