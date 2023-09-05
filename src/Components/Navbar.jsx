@@ -8,8 +8,8 @@ const Navbar = () => {
             <div className="container-fluid">
                 <nav className="navbar navbar-expand-lg back">
                     <div className='navbar-brand head' >
-                        <img src={require('../Images/logo1.jpg')} alt='Logo' width={60} height={70} className='img-responsive me-3'></img>
-                        TasteHealth
+                        <img src={require('../Images/chef.png')} alt='Logo' width={60} height={70} className='img-responsive me-3'></img>
+                        Recipe Master
                     </div>
                     <div className="container">
                         <ul className="navbar-nav non-head">

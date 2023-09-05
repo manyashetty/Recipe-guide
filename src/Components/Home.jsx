@@ -18,10 +18,10 @@ const Home = () => {
               className="d-block "
               src={Food7}
               alt="First slide"
-
+              style={{ maxWidth: '100%', maxHeight: '80vh' }}
             />
             <Carousel.Caption>
-              <h3 id='text'>"People who love to eat are always the best people." - Julia Child</h3>
+              <h5 id='text'>"People who love to eat are always the best people." - Julia Child</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -29,9 +29,10 @@ const Home = () => {
               className="d-block "
               src={Food9}
               alt="Second slide"
+              style={{ maxWidth: '100%', maxHeight: '80vh' }}
             />
             <Carousel.Caption>
-              <h3 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h3>
+              <h5 id='text'>"First we eat, then we do everything else." - M.F.K. Fisher</h5>
 
             </Carousel.Caption>
           </Carousel.Item>
@@ -40,9 +41,10 @@ const Home = () => {
               className="d-block "
               src={Food10}
               alt="Third slide"
+              style={{ maxWidth: '100%', maxHeight: '80vh' }}
             />
             <Carousel.Caption>
-              <h3 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h3>
+              <h5 id='text'>"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</h5>
 
             </Carousel.Caption>
           </Carousel.Item>
@@ -79,6 +81,10 @@ const Home = () => {
                   />
                   <p>Gobi Manchurian is a popular Indian-Chinese fusion dish made with cauliflower
                     (gobi) florets that are deep-fried and then tossed in a flavorful Manchurian sauce</p>
+                    <Link to="/gobi-manchurian-details" className="btn btn-secondary">
+                        Read more
+                    </Link>
+
                 </div>
                 <div class="box-icons">
 
@@ -97,6 +103,9 @@ const Home = () => {
                   />
                   <p>Paneer Ghee Roast is a delicious and spicy South Indian dish made with paneer (Indian cottage cheese)
                     that's roasted in aromatic ghee (clarified butter) and a flavorful blend of spices.</p>
+                    <Link to="/paneer-details" className="btn btn-secondary">
+                           Read more
+                    </Link>
                 </div>
                 <div class="box-icons">
 
@@ -114,6 +123,9 @@ const Home = () => {
                   />
                   <p>Chicken kebabs are a popular and delicious dish made from marinated chicken pieces skewered and grilled to perfection
                     There are various ways to make chicken kebabs</p>
+                    <Link to="/chicken-kebab-details" className="btn btn-secondary">
+                           Read more
+                    </Link>
                 </div>
                 <div class="box-icons">
 
@@ -128,7 +140,7 @@ const Home = () => {
         <section id="quote" class="bg-parlex">
           <div class="parlex-back">
             <div class="container secPad text-center">
-              <h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
+              <h5>If I asked people what they wanted, they would have said ‘Faster Horses’.</h5><h6>-Henry Ford</h6>
             </div>
             {/* <!--/.container--> */}
           </div>
@@ -140,11 +152,11 @@ const Home = () => {
 
           {/* <!-- Icons --> */}
           <ul class="actions">
-            <li><a href="#" ><i class='bx bxl-twitter bx-lg'></i></a></li>
-            <li><a href="#"><i class='bx bxl-facebook bx-lg' ></i></a></li>
-            <li><a href="#" ><i class='bx bxl-google-plus bx-lg'></i></a></li>
-            <li><a href="#" ><i class='bx bxl-pinterest bx-lg'></i></a></li>
-            <li><a href="#"><i class='bx bxl-instagram-alt bx-lg' ></i></a></li>
+            <li><a href="https://twitter.com/" ><i class='bx bxl-twitter bx-lg'></i></a></li>
+            <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook bx-lg' ></i></a></li>
+            <li><a href="https://www.google.com/" ><i class='bx bxl-google-plus bx-lg'></i></a></li>
+            <li><a href="https://www.pinterest.com/" ><i class='bx bxl-pinterest bx-lg'></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt bx-lg' ></i></a></li>
             <li class="menu">&copy; Untitled | Design: <a href="http://Recipie.in">Recipie-guide</a></li>
           </ul>
 
