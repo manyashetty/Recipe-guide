@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
-import Food7 from "../Images/Food7.jpg";
+import Food9 from "../Images/Food9-1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import Modal from "react-modal";
 // Modal.setAppElement("#root");
@@ -64,7 +64,7 @@ function App() {
         <div className="container text-center">
           <div className="row">
             <div className="col">
-              <img src={Food7} alt="First slide" />
+              <img id="img" src={Food9} alt="First slide" />
             </div>
             <div className="col-4">
               <div className="form-container">

@@ -84,3 +84,7 @@
     transform: translateX(100px);
     transition: transform 1s;
   }
+  #img{
+    height: 480px;
+    width: 680px;
+  }

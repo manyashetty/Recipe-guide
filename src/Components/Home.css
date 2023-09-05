@@ -140,3 +140,7 @@ ul.actions li:first-child {
     text-align: center;
     margin-top: 25px;
 }
+#text{
+    color: #000000;
+    text-decoration:overline;
+}
