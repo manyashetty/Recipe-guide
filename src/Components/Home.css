@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@500&family=Fasthand&family=Lugrasimo&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap');
 .h_full{
     /* background-color:#596275; */
-    background-color: #8b8f99;
+    background-color:#596275;
     
 }
 .head{
@@ -68,18 +68,16 @@ margin: 0px;
     margin-bottom: 20px;
   }
   #aboutUs .txtHead{
-    background:#8b8f99;
+    background:#596275;
     padding:20px 10px;
   }
 #aboutUs .txtHead .fa {
     font-size: 58px;
     /* color: #5E5E5E; */
     }
-    
-  
-        #footer{
-            background-color: #8b8f99;
-            height: 50px;
+#footer{
+     background-color: #596275;
+     height: 50px;
             
   }
  ul.menu li {
@@ -92,6 +90,9 @@ ul.actions li {
 ul.actions li:first-child {
    margin-left: 0;
    }
+.li.actions{
+    color: #333;
+}
 #footer .menu {
    position: absolute;
     right: 2em;
