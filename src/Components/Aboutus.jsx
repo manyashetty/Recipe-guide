@@ -34,7 +34,7 @@ const Aboutus = () => {
                 <div class="card">
                   <img src={require('../Images/per1.jpg')} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">Vibha</h5>
+                    <h6 class="card-title">Vibha</h6>
                     <a href="#" class="btn btn-primary">More</a>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const Aboutus = () => {
                 <div class="card">
                   <img src={require('../Images/per3.jpg')} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">Shrilatha</h5>
+                    <h6 class="card-title">Shrilatha</h6>
                     <a href="#" class="btn btn-primary">More</a>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const Aboutus = () => {
                 <div class="card">
                   <img src={require('../Images/per4.jpg')} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">Manya</h5>
+                    <h6 class="card-title">Manya</h6>
                     <a href="#" class="btn btn-primary">More</a>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Aboutus = () => {
                 <div class="card">
                   <img src={require('../Images/per5.jpg')} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">Chandrka</h5>
+                    <h6 class="card-title">Chandrika</h6>
                     <a href="#" class="btn btn-primary">More</a>
                   </div>
                 </div>

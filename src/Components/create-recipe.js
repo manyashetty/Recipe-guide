@@ -3,7 +3,7 @@ import axios from "axios";
 import { useGetUserID } from "../hooks/useGetUserID";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
-// import "../styles/create_recipe.css"
+import "./create_recipe.css";
 
  const CreateRecipe = () => {
   const userID = useGetUserID();
@@ -99,7 +99,7 @@ import { useCookies } from "react-cookie";
   Add Ingredient
 </button>
 
-        <label htmlFor="instructions">Instructions</label>
+        <label htmlFor="instructions">Steps</label>
         <textarea
           id="instructions"
           name="instructions"

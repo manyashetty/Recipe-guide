@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useGetUserID } from "../hooks/useGetUserID";
 import axios from "axios";
-// import "../styles/Home.css"
-
+import "./Home1s.css";
  const Home1s = () => {
   const [recipes, setRecipes] = useState([]);
   const [savedRecipes, setSavedRecipes] = useState([]);
@@ -73,7 +72,7 @@ import axios from "axios";
   };
 
   return (
-    <div>
+    <div className="rr">
       <h1>Recipes</h1>
       <ul>
         {recipes.map((recipe) => (
