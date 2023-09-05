@@ -79,4 +79,3 @@ const MealPlan = () => {
 }
 
 export default MealPlan;
-{ require('../Images/MealPlan3.jpg') }
