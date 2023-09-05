@@ -1,16 +1,51 @@
 import React, { useState } from 'react';
+import Axios from "axios";
+import { useNavigate } from "react-router-dom";
 import './Login.css'
 import Food7 from "../Images/Food7.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
-function App() { 
-  const [loginFormVisible, setLoginFormVisible] = useState(true);
+// import Modal from "react-modal";
+// Modal.setAppElement("#root");
 
-  const switchToLogin = () => {
-    setLoginFormVisible(true);
+function App() { 
+  //----------------------------
+  const navigate = useNavigate();
+  const [data, setData] = useState({ email: "", password:"" });
+
+  const changeHandler = (t) => {
+    let name1 = t.target.name;
+    let val = t.target.value;
+    setData({ ...data, [name1]: val });
   };
 
-  const switchToRegister = () => {
-    setLoginFormVisible(false);
+  const submitHandler = async (t) => {
+    t.preventDefault();
+    try{
+   const tdata = await Axios.post("http://localhost:3500/login", { ...data });
+   const { status, data: response } = tdata;
+   const message = response.msg;
+      console.log(message);
+      if (status !== 201) {
+        alert("Login Sucessful");
+        setTimeout(() => {
+          navigate("/");
+        }, 1000);
+      } else {
+        console.log("error");
+      }
+    } catch (error) {
+      console.log(error);
+      alert(error.response.data.msg);
+    }
+  //-------------------------------------------------
+  //  .then((res) => {
+  //     let ack = res.data;
+  //     if (ack === "success") {
+  //       alert("data inserted successfully");
+  //     } else {
+  //       alert("data not inserted");
+  //     }
+  //   });
   };
 
   return (
@@ -24,25 +59,18 @@ function App() {
             <div className="col-4"> 
               <div className="form-container">
                 <div className="form-btn">
-                  <span onClick={switchToLogin}>Login</span>
-                  <span onClick={switchToRegister}>Register</span>
-                  <hr id="indicator" style={{ transform: loginFormVisible ? 'translateX(0px)' : 'translateX(100px)' }} />
+                  <span >Login</span>
+                 
                 </div>
-                {loginFormVisible ? (
-                  <form action="" id="LoginForm">   
-                    <input type="text" placeholder="Username" />
-                    <input type="password" placeholder="Password" />
-                    <button type="submit" className="btn btn-dark ms-auto px-4 rounded-pill">Login</button>
-                    <a href="#">Forgot Password</a>
+              
+                  <form action="POST" id="LoginForm" onSubmit={submitHandler}>   
+                    <input type="text"  name="email" placeholder="Email"  value={data.email} onChange={changeHandler}  />
+                    <input type="password" value={data.password} name="password" onChange={changeHandler} placeholder="Password" />
+                    <button type="Submit" className="btn btn-dark ms-auto px-4 rounded-pill" >Login</button>
+                    <a href="/">Forgot Password</a>
+                    
                   </form>
-                ) : (
-                  <form action="" id="RegForm">
-                    <input type="text" placeholder="Username" />
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
-                    <button type="submit" className="btn btn-dark ms-auto px-4 rounded-pill">Register</button>
-                  </form>
-                )}
+               
               </div>
             </div>
           </div>

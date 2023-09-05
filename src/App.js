@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Recipe from './Components/Recipe';
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path= "/signup" element={<SignUp/>}/>
           <Route path="/" element={<Home />} />
           <Route path="/Recipe" element={<Recipe />} />
           <Route path="/gobi-manchurian-details" element={<RecipeDetails />} />

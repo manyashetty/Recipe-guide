@@ -27,9 +27,11 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="nav navbar-nav navbar-right">
-                            <a href='Login'><button type="button" className="btn btn-dark ms-auto px-4 rounded-pill">Login / Sign-up</button></a>
+                            <a href='Login'><button type="button" className="btn btn-dark ms-auto px-4 rounded-pill">Login</button></a>
                         </div>
-                        
+                        <div className="nav navbar-nav navbar-right">
+                            <a href='SignUp'><button type="button" className="btn btn-dark ms-auto px-4 rounded-pill">Sign-up</button></a>
+                        </div>
                     </div>
                 </nav>
             </div>
