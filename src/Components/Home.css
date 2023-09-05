@@ -142,6 +142,12 @@ ul.actions li:first-child {
     margin-top: 25px;
 }
 #text{
-    color: #000000;
+    color:white;
     text-decoration:overline;
+    font-size: large;
+    font-weight: bolder;
+}
+#Recipe{
+    color: white;
+    font-size: xx-large;
 }

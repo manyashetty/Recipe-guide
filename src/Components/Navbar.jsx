@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='h_full'>
             <div className="container-fluid">
                 <nav className="navbar navbar-expand-lg back">
-                    <div className='navbar-brand head' >
+                    <div className='navbar-brand head'id="Recipe" >
                         <img src={require('../Images/chef.png')} alt='Logo' width={60} height={70} className='img-responsive me-3'></img>
                         Recipe Master
                     </div>
