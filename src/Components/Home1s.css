@@ -40,9 +40,20 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .rr .ingredients,
+  .rr .instructions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   
+  .rr .ingredients li,
+  .rr .instructions li {
+    list-style-type: disc; /* Use disc points for list items within ingredients and instructions */
+    margin-left: 20px; /* Add left margin to create spacing between points and text */
+  }
 .rr img {
-    max-width: 100%;
+    max-width: 20%;
+    max-height: 20%;
     height: auto;
   }
   

@@ -83,10 +83,7 @@ import "./Home1s.css";
               <button
                 onClick={() => saveRecipe(recipe._id)}
                 disabled={isRecipeSaved(recipe._id)}
-                
-              >
-              
-                
+              > 
                 {isRecipeSaved(recipe._id) ? "Saved" : "Save"}
               </button>
               <button type="button" onClick={() => deleter(recipe._id)}
@@ -98,9 +95,12 @@ import "./Home1s.css";
                     Share
                   </button>
             </div>
+            <div className="ingredients">
+              <p>{recipe.ingredients}</p>
+            </div>
             <div className="instructions">
               <p>{recipe.instructions}</p>
-            </div>
+            </div> 
             <img src={recipe.imageUrl} alt={recipe.name} />
             <p>Cooking Time: {recipe.cookingTime} minutes</p>
           </li>
