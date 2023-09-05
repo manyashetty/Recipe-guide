@@ -23,7 +23,7 @@ const Navbar = () => {
                                 <a className='nav-link' href='/Recipe' to="/Recipe" id='text'>Recipes</a>
                             </li>
                             <li className='nav-item'>
-                                <a className='nav-link' href='/About' id='text'>About Us</a>
+                                <a className='nav-link' href='/Aboutus' id='text'>About Us</a>
                             </li>
                         </ul>
                         <div className="nav navbar-nav navbar-right">

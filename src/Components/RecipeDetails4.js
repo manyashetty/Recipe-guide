@@ -1,6 +1,7 @@
-// RecipeDetails.js
+
 import React from 'react';
-import './Recipe.css'; // Import your CSS file for styling
+import './Recipe.css'; 
+import { Link } from 'react-router-dom';
 const RecipeDetails4 = () => {
   return (
  <div className="recipe-details">
@@ -55,7 +56,12 @@ const RecipeDetails4 = () => {
     <br></br>
     <div className="section">
         <ol className="conclusion">
-        <h3>Adjust the quantity of red chilies and spices to suit your taste preferences, making it as mild or as spicy as you like. Enjoy this delicious South Indian dish!</h3>
+        <h6>Adjust the quantity of red chilies and spices to suit your taste preferences, making it as mild or as spicy as you like. Enjoy this delicious South Indian dish!</h6>
+        </ol>
+        <ol className='video'>
+          <p>Refer Video:
+              <Link to="https://www.youtube.com/watch?v=kscC5MVhB1E">Click Here</Link>
+          </p>
         </ol>
     </div>
  </div>

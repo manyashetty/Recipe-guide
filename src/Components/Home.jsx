@@ -1,6 +1,7 @@
 import './Home.css';
 import 'boxicons/css/boxicons.min.css';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Food7 from "../Images/Food7.jpg";
 import Food9 from "../Images/Food9.jpg";
 import Food10 from "../Images/Food10.jpg";

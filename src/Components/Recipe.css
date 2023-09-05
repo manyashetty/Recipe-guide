@@ -6,7 +6,9 @@
 .col-md-3{
     background-color: rgb(255, 255, 255);
 }
-
+.card-text{
+  font-size: 18px;
+}
 .recipe-details {
     background-color: #f0f0f0;
     padding: 20px;
@@ -32,7 +34,7 @@
     margin-top: 20px;
   }
   
-  .section-text {
+.section-text {
     font-size: 18px;
     color: #444;
   }
@@ -57,4 +59,10 @@
   }
 .conclusion{
     font-size: 18px;
+    color: #555;
+}
+.video{
+  font-size: 18px;
+  color: #555;
+  padding-left: 0px;
 }

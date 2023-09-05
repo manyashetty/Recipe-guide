@@ -1,6 +1,7 @@
-// RecipeDetails.js
+
 import React from 'react';
-import './Recipe.css'; // Import your CSS file for styling
+import './Recipe.css';
+import { Link } from 'react-router-dom';
 const RecipeDetails3 = () => {
   return (
  <div className="recipe-details">
@@ -55,8 +56,13 @@ const RecipeDetails3 = () => {
     <br></br>
     <div className="section">
         <ol className="conclusion">
-        <h3>Egg curry can be customized to your preferred level of spiciness and flavor. 
-            Adjust the spices and seasonings to suit your taste. It's a hearty and satisfying dish that's enjoyed in many parts of the world.</h3>
+        <h6>Egg curry can be customized to your preferred level of spiciness and flavor. 
+            Adjust the spices and seasonings to suit your taste. It's a hearty and satisfying dish that's enjoyed in many parts of the world.</h6>
+        </ol>
+        <ol className='video'>
+          <p>Refer Video:
+              <Link to="https://www.youtube.com/watch?v=0bs7u1CLKy8">Click Here</Link>
+          </p>
         </ol>
     </div>
  </div>

@@ -8,7 +8,7 @@ const Recipe = () => {
     return (
         < >
         <div class="main">
-            <h1>Explore our Recipe</h1>
+            <h1>Explore our Recipes</h1>
         </div>
         <dic class="container">
         <div class="row">
@@ -26,7 +26,7 @@ const Recipe = () => {
                         <p class="card-text">In Hindi ‘Gobi’ means Cauliflower. ‘Manchurian’ refers to the Manchurian sauce 
                         which is made with sautéed spring onions (scallions), capsicum (bell pepper), 
                         green chillies, ginger and garlic in a mix of soy sauce, tomato ketchup and chilli sauce</p> <br></br>
-                        <Link to="/gobi-manchurian-details" className="btn btn-danger">
+                        <Link to="/gobi-manchurian-details" className="btn btn-secondary">
                         Read more
                         </Link>
                         </div>
@@ -47,7 +47,7 @@ const Recipe = () => {
                            particularly in Middle Eastern, Mediterranean, and South Asian cuisine.It consists of small pieces of chicken 
                            meat that are  marinated in a flavorful mixture of spices and yogurt.
                            </p><br></br>
-                           <Link to="/chicken-kebab-details" className="btn btn-danger">
+                           <Link to="/chicken-kebab-details" className="btn btn-secondary">
                            Read more
                            </Link>
                         </div>
@@ -68,7 +68,7 @@ const Recipe = () => {
                            It consists of hard-boiled eggs cooked in a rich and aromatic gravy made from a variety of spices, tomatoes, onions,
                             and sometimes coconut milk or yogurt. 
                            </p><br></br>
-                           <Link to="/egg-curry-details" className="btn btn-danger">
+                           <Link to="/egg-curry-details" className="btn btn-secondary">
                            Read more
                            </Link>
                         </div>
@@ -89,7 +89,7 @@ const Recipe = () => {
                            South Indian region of Karnataka. It features paneer marinated in a spicy and tangy masala mixture,
                             which is then roasted in ghee until it's well-browned and aromatic. 
                            </p><br></br>
-                           <Link to="/paneer-details" className="btn btn-danger">
+                           <Link to="/paneer-details" className="btn btn-secondary">
                            Read more
                            </Link>
                         </div>
